@@ -27,15 +27,15 @@ export const HeroScreen = ({ history }) => {
   return (
     <div className="card mt-5 mb-3">
       <div className="row no-gutters">
-        <div className="col-md-4">
+        <div className="col-sm-5 col-md-4 col-lg-3">
           <img
             src={`../assets/heroes/${heroeId}.jpg`}
             alt={superhero}
-            style={{ maxWidth: 300 }}
+            style={{ maxWidth: "100%" }}
             className="animate__animated animate__fadeInLeft"
           />
         </div>
-        <div className="col-md-8">
+        <div className="col-sm-7 col-md-8 col-lg-9">
           <div className="card-body">
             <h5 className="card-title">{superhero}</h5>
             <ul className="list-group list-group-flush">
