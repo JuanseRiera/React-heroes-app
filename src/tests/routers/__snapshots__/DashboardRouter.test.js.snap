@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componete DashboardRouter Deberia de cargar el componete 1`] = `ReactWrapper {}`;

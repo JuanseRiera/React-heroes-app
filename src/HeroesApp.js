@@ -1,6 +1,6 @@
 import React, { useReducer, useEffect } from "react";
-import { AuthContext } from "./components/auth/AuthContext";
-import { authReducer } from "./components/auth/authReducer";
+import { AuthContext } from "./auth/AuthContext";
+import { authReducer } from "./auth/authReducer";
 import { AppRouter } from "./routers/AppRouter";
 
 export const HeroesApp = () => {
